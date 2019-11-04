@@ -85,8 +85,7 @@ def all_supplies_in_holidays(holiday_hash)
    event.each do |event_name, supply|
       #each loop of every season and event, event loop with event names and supply list
   # season = season.to_s.capitalize
-   event_name = event_name.to_s.capitalize
-   supply.values_at.flatten
+  
     puts "#{season.capitalize}:"
 
    end
