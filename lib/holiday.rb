@@ -85,7 +85,7 @@ def all_supplies_in_holidays(holiday_hash)
        puts "#{season.capitalize}:"
 
    event.each do |event_name, supply|
-     puts "#{event_name.capitalize}: #{supply}"
+     puts "#{event_name.capitalize}: #{supply}".flatten
 
       #each loop of every season and event, event loop with event names and supply list
   # season = season.to_s.capitalize
