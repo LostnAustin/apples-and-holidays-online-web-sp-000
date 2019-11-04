@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
- holiday_hash.each do |season, event,|
+ holiday_hash.each do |season, event|
    event.each do |event_name, supply|
       #each loop of every season and event, event loop with event names and supply list
    season = season.to_s.capitalize
