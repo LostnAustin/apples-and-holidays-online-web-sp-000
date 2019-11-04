@@ -117,7 +117,8 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   holiday_hash.collect do |season, holiday|
     holiday.collect do |hol_name, supplies|
-    if supplies.include?("BBQ")
+    supplies.include?("BBQ") ? hol_name : false
+    #if the supplies don't include BBQ, hol_name returns false
       puts "#{supplies}"
 end
 end
