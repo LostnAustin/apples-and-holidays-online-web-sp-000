@@ -80,6 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
+  binding.pry
  holiday_hash.each do |season, event|
    event.each do |event_name, supply|
       #each loop of every season and event, event loop with event names and supply list
