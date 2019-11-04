@@ -122,4 +122,5 @@ def all_holidays_with_bbq(holiday_hash)
     #  puts "#{hol_name}"
 end
 end.flatten.compact
+# flatten into single array, use .compact to remove nil values from array.
 end
